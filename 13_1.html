@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="13_1.css">
+    <title>Распределяющая шляпа</title>
+</head>
+<body onload="timer_();">
+    <h2>Тест на определение факультета</h2>
+    <p class="p">
+        Время: <label id="timer"></label>
+    </p>
+    <form id="test">
+        <p> Ваше имя:<br></p>
+            <h4>
+                <input type="text" id="Name" value="" placeholder="Текст">
+            </h4>
+        <p> Больше всего Вы ненавидите, когда вас называют:<br> </p>
+            <h4>
+            <label><input type="radio" name="question1" value="Ord">Посредственностью</label><br>
+            <label><input type="radio" name="question1" value="Ign">Невеждой</label><br>
+            <label><input type="radio" name="question1" value="Slf">Эгоистом</label><br>
+            <label><input type="radio" name="question1" value="Cwd">Трусом</label><br>
+            </h4>
+        <p> Как бы Вы хотели, чтобы люди реагировали на Ваше имя после Вашей смерти?<br></p>
+            <h4>
+            <label><input type="radio" name="question2" value="Hf">Со светлой грустью</label><br>
+            <label><input type="radio" name="question2" value="Gr">Чтобы спрашивали больше о моих приключениях</label><br>
+            <label><input type="radio" name="question2" value="Sl">Чтобы думали о моих достижениях с восхищением</label><br>
+            <label><input type="radio" name="question2" value="Rv">Мне все равно, что они будут думать после моей смерти; важно только то, что они думают, пока я жив</label><br>
+            </h4>
+        <p> Заря:<br></p>
+        <h4>
+            <label><input type="radio" name="question3" value="GH">Утренняя</label><br>
+            <label><input type="radio" name="question3" value="RS">Вечерняя</label><br>
+        </h4>
+        <p> Перед Вами стоят четыре кубка с зельем. Из какого выпить?<br></p>
+        <h4>
+            <label><input type="radio" name="question4" value="RH">Насыщенная пурпурная густая жидкость. Зелье пахнет шоколадом и сливами</label><br>
+            <label><input type="radio" name="question4" value="RS">Таинственная черная жидкость, которая блестит, как чернила, и испускает пары, заставляющие вас видеть странные видения.</label><br>
+            <label><input type="radio" name="question4" value="SG">Пенящаяся, серебристая жидкость, которая сверкает, как будто содержит молотые алмазы. </label><br>
+            <label><input type="radio" name="question4" value="GH">Золотая жидкость, такая яркая, что режет глаза и заставляет солнечные зайчики танцевать по всей комнате.</label><br>
+        </h4>
+        <p> Лево или право?<br></p>
+        <h4>
+            <label><input type="radio" name="question5" value="Left">Лево</label><br>
+            <label><input type="radio" name="question5" value="Right">Право</label><br>
+        </h4>
+        <p> Выберите цвет</p>
+        <h4>
+            <input type="color" value=#000000 name="color">
+        </h4>
+        <p>
+            <input type="button" id="answers" value="Ответить">
+        </p>
+    </form>
+<script src="13_1.js"></script>
+</body>
+</html>
